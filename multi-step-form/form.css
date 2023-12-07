@@ -117,7 +117,6 @@ legend{
     flex-direction: row;
     justify-content: space-between;
 }
-
 #StepOneContainer > .FormGroupButtons{
     justify-content: flex-end;
 }
