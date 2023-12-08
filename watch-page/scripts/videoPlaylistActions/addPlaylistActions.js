@@ -4,8 +4,7 @@ export function changePlaylistDomTree() {
     const playlist = document.getElementById("playlist-wrapper")
     const videos = playlist.querySelectorAll(".playlist-card")
     for (let video of videos) {
-        video.addEventListener("click", (e) => {
-            const v = video.id
+        video.addEventListener("click", () => {
             let id = Number(String(video.id).replace("card", ""))
             const currentVideoDiv = document.querySelector(".active-card")
             currentVideoDiv.className = "playlist-card"
