@@ -1,4 +1,3 @@
-import {displayVideo} from "./scripts/videoPlayerActions/addVideoPlayerActions.js";
+import {changePlaylistDomTree} from "./scripts/videoPlaylistActions/addPlaylistActions.js";
 
-displayVideo(2).then(r => {
-})
+changePlaylistDomTree()

@@ -15,7 +15,7 @@ function changeVideoPlayerInfoDomTree(video) {
     description.textContent = video.description
 }
 
-export async function displayVideo(id) {
+export function displayVideo(id) {
     fetchVideoInfo(id).then((response) => {
         response.json().then((video) => {
             changeVideoPlayerInfoDomTree(video)
